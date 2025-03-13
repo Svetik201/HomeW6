@@ -43,7 +43,7 @@ public class Main {
      int total = 0;
      for (int z = 1; z <= 12; z++) {
          total = total + rub;
-         System.out.println( z + " Месяц сумма накоплений равна " + total);
+         System.out.println(z + " Месяц сумма накоплений равна " + total);
      }
      System.out.println(" задание 9 .");
 
@@ -52,7 +52,7 @@ public class Main {
      for (int h = 1; h <= 12; h++) {
          totalSavings = totalSavings + totalSavings/100;
          totalSavings = totalSavings + monthlyDeposit;
-         System.out.println( h + " Месяц сумма накоплений равна " + totalSavings);
+         System.out.println(h + " Месяц сумма накоплений равна " + totalSavings);
      }
      System.out.println(" задание 10 .");
 
