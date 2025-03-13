@@ -47,12 +47,12 @@ public class Main {
      }
      System.out.println(" задание 9 .");
 
-     rub = 29000;
-     total = 0;
+     int monthlyDeposit = 29000;
+     int totalSavings = 0;
      for (int h = 1; h <= 12; h++) {
-         total = total + total/100;
-         total = total + rub;
-         System.out.println( h + " Месяц сумма накоплений равна " + total);
+         totalSavings = totalSavings + totalSavings/100;
+         totalSavings = totalSavings + monthlyDeposit;
+         System.out.println( h + " Месяц сумма накоплений равна " + totalSavings);
      }
      System.out.println(" задание 10 .");
 
